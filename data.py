@@ -19,6 +19,6 @@ Hᴇʏ {},
 Tʜɪs ɪs {},
 Aɴ ᴏᴩᴇɴ sᴏᴜʀᴄᴇᴅ sᴛʀɪɴɢ sᴇssɪᴏɴ ɢᴇɴᴇʀᴀᴛᴏʀ ʙᴏᴛ, ᴡʀɪᴛᴛᴇɴ ɪɴ ᴩʏᴛʜᴏɴ ᴡɪᴛʜ ᴛʜᴇ ʜᴇʟᴩ ᴏғ ᴩʏʀᴏɢʀᴀᴍ.
 
-Sᴏᴜʀᴄᴇ : [ɢɪᴛʜᴜʙ](https://github.com/ItzvenomXd/StringGenBot)
+Sᴏᴜʀᴄᴇ : [ɢɪᴛʜᴜʙ](https://github.com/Itzvenomo/String)
 Mᴀᴅᴇ ᴡɪᴛʜ 🖤 ʙʏ : [ᴍʀ ᴀʏᴜsʜ](https://t.me/Venom_bolte_public) !
     """
