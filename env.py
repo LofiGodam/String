@@ -7,7 +7,7 @@ API_ID = os.getenv("API_ID", "14202110").strip()
 API_HASH = os.getenv("API_HASH", "45f3a3ac8effd88e42aeabe3cfe4f520").strip()
 BOT_TOKEN = os.getenv("BOT_TOKEN", "6114656337:AAFwEQG7sKz8i-OHBQ-Pn1GbW_UpHnl1e1I").strip()
 OWNER_ID = list(map(int, os.getenv("OWNER_ID", "5956803759").split()))
-DATABASE_URL = os.getenv("DATABASE_URL", "").strip()
+DATABASE_URL = os.getenv("DATABASE_URL", "postgres://venom_user:zmEnbFFJbKmFf0FCyIjleT3efKBLQlP3@dpg-chum14u7avj345ct6ing-a/venom").strip()
 MUST_JOIN = os.getenv("MUST_JOIN", "Its_Venom_family")
 
 if not API_ID:
