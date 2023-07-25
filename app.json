@@ -15,8 +15,7 @@
     "worker": {
       "quantity": 1,
       "size": "eco"
-    }
-   ],
+    }, 
   "repository": "https://github.com/itvenom/String",
   "env": {
     "ENVIRONMENT": {
