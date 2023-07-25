@@ -1,7 +1,7 @@
 {
-  "name": "sᴛʀɪɴɢ sᴇssɪᴏɴ ɢᴇɴᴇʀᴀᴛᴏʀ",
+  "name": "𝚂𝚃𝚁𝙸𝙽𝙶  𝚂𝙴𝚂𝚂𝙸𝙾𝙽 𝙼𝙰𝙺𝙴𝚁",
   "description": "A Telegram Bot to generate Telethon and Pyrogram String Sessions.",
-  "logo": "https://telegra.ph/file/9f31b3a61c4897b297a33.jpg",
+  "logo": "https://te.legra.ph/file/18a02c44abd00e20643b2.jpg",
   "keywords": [
     "telegram",
     "bot",
@@ -15,8 +15,17 @@
     "worker": {
       "quantity": 1,
       "size": "eco"
-    }, 
-  "repository": "https://github.com/itvenom/String",
+    }
+  },
+  "addons": [
+      {
+         "options": {
+            "version": "12"
+         },
+         "plan": "heroku-postgresql"
+      }
+   ],
+  "repository": "https://github.com/Itzvenomo/String",
   "env": {
     "ENVIRONMENT": {
       "description": "Don't change ANYTHING.",
@@ -26,22 +35,22 @@
     "API_ID": {
       "description": "Get this value from my.telegram.org/apps.",
       "required": true,
-      "value": "15602623"
+      "value": ""
     },
     "API_HASH": {
       "description": "Get this value from my.telegram.org/apps.",
       "required": true,
-      "value": "df0e60cd923fb87018e221a35f374ff7"
+      "value": ""
     },
     "OWNER_ID": {
       "description": "Telegram id of the person who will known as owner of the bot.",
       "required": true,
-      "value": "5956803759"
+      "value": ""
     },
     "MUST_JOIN": {
       "description": "Username of a group or channel for which you want to set force sub.(without @)",
       "required": true,
-      "value": "Its_Venom_family"
+      "value": "TheNight_City"
     },
     "BOT_TOKEN": {
       "description": "Get this value from @BotFather",
