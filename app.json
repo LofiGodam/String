@@ -16,16 +16,8 @@
       "quantity": 1,
       "size": "eco"
     }
-  },
-  "addons": [
-      {
-         "options": {
-            "version": "12"
-         },
-         "plan": "heroku-postgresql"
-      }
    ],
-  "repository": "https://github.com/Itzvenomo/String",
+  "repository": "https://github.com/itvenom/String",
   "env": {
     "ENVIRONMENT": {
       "description": "Don't change ANYTHING.",
@@ -35,17 +27,17 @@
     "API_ID": {
       "description": "Get this value from my.telegram.org/apps.",
       "required": true,
-      "value": ""
+      "value": "15602623"
     },
     "API_HASH": {
       "description": "Get this value from my.telegram.org/apps.",
       "required": true,
-      "value": ""
+      "value": "df0e60cd923fb87018e221a35f374ff7"
     },
     "OWNER_ID": {
       "description": "Telegram id of the person who will known as owner of the bot.",
       "required": true,
-      "value": ""
+      "value": "5956803759"
     },
     "MUST_JOIN": {
       "description": "Username of a group or channel for which you want to set force sub.(without @)",
