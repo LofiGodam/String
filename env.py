@@ -5,7 +5,7 @@ load_dotenv()
 
 API_ID = os.getenv("API_ID", "14202110").strip()
 API_HASH = os.getenv("API_HASH", "45f3a3ac8effd88e42aeabe3cfe4f520").strip()
-BOT_TOKEN = os.getenv("BOT_TOKEN", "6114656337:AAFwEQG7sKz8i-OHBQ-Pn1GbW_UpHnl1e1I").strip()
+BOT_TOKEN = os.getenv("BOT_TOKEN", "").strip()
 OWNER_ID = list(map(int, os.getenv("OWNER_ID", "5956803759").split()))
 DATABASE_URL = os.getenv("DATABASE_URL", "postgres://eusbhunz:sMAFOIhfF3hB6CVT4Ri09wRIJLJcUh7x@hansken.db.elephantsql.com/eusbhunz").strip()
 MUST_JOIN = os.getenv("MUST_JOIN", "Its_Venom_family")
